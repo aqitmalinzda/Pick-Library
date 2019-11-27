@@ -19,7 +19,7 @@ And add dependency to module build.gradle:
 
 ```
 dependencies {
-    implementation 'com.github.pahlevikun:droidcrypt:0.0.1'
+    implementation 'com.github.aqitmalinzda:Pick-Library:1.0.0'
 }
 ```
 
