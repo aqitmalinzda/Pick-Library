@@ -1,4 +1,4 @@
-package perangkaikode.com.pickfileandimage
+package perangkaikode.com.pickfile
 
 import android.content.ComponentName
 import android.content.Context

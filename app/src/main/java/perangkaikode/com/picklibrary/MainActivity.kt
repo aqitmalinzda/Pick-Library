@@ -6,8 +6,8 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-import perangkaikode.com.pickfileandimage.PickData
-import perangkaikode.com.pickfileandimage.UriToFile
+import perangkaikode.com.pickfile.PickData
+import perangkaikode.com.pickfile.UriToFile
 
 class MainActivity : AppCompatActivity() {
 

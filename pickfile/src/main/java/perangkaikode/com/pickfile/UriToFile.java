@@ -1,4 +1,4 @@
-package perangkaikode.com.pickfileandimage;
+package perangkaikode.com.pickfile;
 
 import android.content.Context;
 import android.database.Cursor;

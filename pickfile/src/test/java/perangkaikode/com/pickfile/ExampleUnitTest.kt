@@ -1,4 +1,4 @@
-package perangkaikode.com.pickfileandimage
+package perangkaikode.com.pickfile
 
 import org.junit.Test
 

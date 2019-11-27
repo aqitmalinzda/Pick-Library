@@ -1,4 +1,4 @@
-package perangkaikode.com.pickfileandimage
+package perangkaikode.com.pickfile
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
