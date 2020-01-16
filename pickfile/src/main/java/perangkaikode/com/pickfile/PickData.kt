@@ -5,14 +5,18 @@ import android.content.Context
 import android.content.Intent
 import android.os.Parcelable
 
-class PickData {
+class PickData(val context: Context) {
 
-    fun getData(context: Context): Intent {
+    companion object {
+        val PICK_FILE = 123
+    }
+
+    fun getData(): Intent {
         val allIntents = ArrayList<Intent>()
         val packageManager = context.packageManager
 
         val intentApp = Intent(Intent.ACTION_GET_CONTENT)
-        intentApp.type = "image/*"
+        intentApp.type = "file/*"
         val listIntentApp = packageManager.queryIntentActivities(intentApp, 0)
         for (res in listIntentApp) {
             val intent = Intent(intentApp)
@@ -34,4 +38,5 @@ class PickData {
         chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, allIntents.toTypedArray<Parcelable>())
         return chooserIntent
     }
+
 }
